@@ -2,6 +2,18 @@
 
 Hệ thống mạng xã hội dành cho cựu sinh viên, giảng viên và quản trị viên trường đại học, hỗ trợ chia sẻ thông tin, tương tác xã hội, khảo sát và chat trực tuyến.
 
+ Demo hệ thống đã được triển khai online:  
+- **Frontend:** https://social-network-frontend-omega.vercel.app/  
+- **Backend API:** https://socialnetwork-backend-n201.onrender.com/socialNetwork
+
+## ⚠️ Lưu ý khi truy cập Demo
+
+Backend được deploy trên Render (Free Tier), do đó **server sẽ tự động chuyển sang chế độ sleep khi không có request trong một khoảng thời gian**.  
+
+⏳ Khi truy cập lần đầu, backend có thể mất **khoảng 5 phút để khởi động lại** trước khi API sẵn sàng.
+
+Sau khi server đã hoạt động, các request tiếp theo sẽ phản hồi nhanh hơn.
+
 ## 🏗️ Kiến trúc Hệ thống
 
 Dự án được chia thành hai phần chính:
